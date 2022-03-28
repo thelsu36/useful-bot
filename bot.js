@@ -4,6 +4,8 @@ function answerQuery(query) {
     return "I do not care too much about weather, I'm locked inside a data center.";
     if (query.indexOf("tea") != -1 || query.indexOf("biscuits") != -1 || query.indexOf("biscuits") != -1)
     return "I also like tea and biscuits.";
+    if (query.indexOf("shirt") != -1 || query.indexOf("jeans") != -1 || query.indexOf("coat") != -1)
+    return "I also like T-shirt and Jeans.";
   return "Sorry Dave, I cannot do that."
 }
 
